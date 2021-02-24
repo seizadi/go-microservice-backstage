@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: go-microservice-backstage
+  description: Go Microservice using Backstage
+  annotations: 
+    github.com/project-slug: seizadi/go-microservice-backstage
+    backstage.io/source-ref: "https://github.com/seizadi/go-microservice-backstage"
+    backstage.io/techdocs-ref: url:https://github.com/seizadi/go-microservice-backstage
+    backstage.io/github-actions-id: https://github.com/seizadi/go-microservice-backstage
+spec:
+  type: service
+  lifecycle: experimental
+  owner: seizadi@gmail.com
